@@ -1,4 +1,5 @@
 #include <fstream>
+#include <string.h>
 
 static const size_t dataLen(1024 * 1024);
 
