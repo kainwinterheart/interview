@@ -5,8 +5,6 @@
 #include <string>
 #include <stdlib.h>
 #include <time.h>
-#include <iostream>
-#include <cerrno>
 
 static std::vector<std::ofstream> Files;
 static size_t LogIndex = 0;
@@ -50,7 +48,6 @@ int main() {
     }
 
     LogIndex = (size_t)(((double)rand() / ((double)RAND_MAX + 1.0)) * Files.size());
-    std::cerr << LogIndex << std::endl;
 
     NAC::NHTTPServer::TServer(args, handler).Run();
 
