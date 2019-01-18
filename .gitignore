@@ -1,0 +1,13 @@
+*.o
+*.o.tmp
+*.swp
+.DS_Store
+._.DS_Store
+*.bak
+*.meta
+*.log
+*.html
+*.json
+src/logs/interview-logs
+src/res1/interview-res1
+src/res2/interview-res2
